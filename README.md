@@ -1,47 +1,102 @@
-# MySQL Practice Labs
+# Practice MySQL Labs
 
-[![MySQL Practice Labs](https://cover-creator.appbot.io/mysql-practice-labs.png)](https://labex.io/courses/mysql-practice-labs)
+## Languages
 
-[![Start-Learning](https://img.shields.io/badge/Start-Learning-whitesmoke?style=for-the-badge)](https://labex.io/courses/mysql-practice-labs)
+🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
 
-This course contains lots of labs for MySQL, each lab is a small MySQL project with detailed guidance and solutions. You can practice your MySQL skills by completing these labs, improve your coding skills, and learn how to write clean and efficient code.
+<div align="center">
+<img width="128px" src="https://file.labex.io/upload/u/1991/N5gbGCQwPA5P.png">
+</div>
 
-![MySQL](https://img.shields.io/badge/MySQL-whitesmoke?style=for-the-badge&logo=mysql)
+Learn MySQL, a widely-used relational database management system, with this comprehensive learning path. These MySQL courses are designed for beginners, providing a structured roadmap to master SQL, database design, and administration. Gain real-world experience through hands-on, non-video tutorials and practical exercises in an interactive SQL playground focused on database management and querying.
 
+Browse up to 77 hands-on MySQL labs from LabEx. Each lab opens in an interactive environment so you can practice by doing.
 
-## Environment
+|   Index | Name                                                                                                                       | Skills             | Difficulty   | Practice                                                                                   |
+|---------|----------------------------------------------------------------------------------------------------------------------------|--------------------|--------------|--------------------------------------------------------------------------------------------|
+|      01 | [Updatium Quest in Hadoop Wonderland](https://labex.io/labs/hadoop-updatium-quest-in-hadoop-wonderland-289005)             | Table Design       | Beginner     | [Start Lab](https://labex.io/labs/hadoop-updatium-quest-in-hadoop-wonderland-289005)       |
+|      02 | [Hadoop Numerical Harmony Quest](https://labex.io/labs/hadoop-hadoop-numerical-harmony-quest-288987)                       | Table Design       | Beginner     | [Start Lab](https://labex.io/labs/hadoop-hadoop-numerical-harmony-quest-288987)            |
+|      03 | [Optimizing Galactic Spaceport Operations](https://labex.io/labs/hadoop-optimizing-galactic-spaceport-operations-288989)   | Storage Engines    | Beginner     | [Start Lab](https://labex.io/labs/hadoop-optimizing-galactic-spaceport-operations-288989)  |
+|      04 | [Hadoop Cosmic Communication Quest](https://labex.io/labs/hadoop-hadoop-cosmic-communication-quest-288990)                 | Select Queries     | Beginner     | [Start Lab](https://labex.io/labs/hadoop-hadoop-cosmic-communication-quest-288990)         |
+|      05 | [Royal Data Magic Schema](https://labex.io/labs/hadoop-royal-data-magic-schema-288993)                                     | Table Design       | Beginner     | [Start Lab](https://labex.io/labs/hadoop-royal-data-magic-schema-288993)                   |
+|      06 | [Pirates Hive Security Quest](https://labex.io/labs/hadoop-pirates-hive-security-quest-288994)                             | Security Controls  | Beginner     | [Start Lab](https://labex.io/labs/hadoop-pirates-hive-security-quest-288994)               |
+|      07 | [Mystical Hadoop Sorting Secrets](https://labex.io/labs/hadoop-mystical-hadoop-sorting-secrets-288996)                     | File Creation      | Beginner     | [Start Lab](https://labex.io/labs/hadoop-mystical-hadoop-sorting-secrets-288996)           |
+|      08 | [Hadoop Olympiad Partitioning](https://labex.io/labs/hadoop-hadoop-olympiad-partitioning-288997)                           | File Creation      | Beginner     | [Start Lab](https://labex.io/labs/hadoop-hadoop-olympiad-partitioning-288997)              |
+|      09 | [Space Resource Optimization with Hadoop](https://labex.io/labs/hadoop-space-resource-optimization-with-hadoop-288998)     | Directory Creation | Beginner     | [Start Lab](https://labex.io/labs/hadoop-space-resource-optimization-with-hadoop-288998)   |
+|      10 | [Hadoop Storage Mastery in Abyss](https://labex.io/labs/hadoop-hadoop-storage-mastery-in-abyss-288999)                     | Table Design       | Beginner     | [Start Lab](https://labex.io/labs/hadoop-hadoop-storage-mastery-in-abyss-288999)           |
+|      11 | [The Monks Data Quest](https://labex.io/labs/hadoop-the-monks-data-quest-289002)                                           | Select Queries     | Beginner     | [Start Lab](https://labex.io/labs/hadoop-the-monks-data-quest-289002)                      |
+|      12 | [VR Universe Exploration with HadoopUDFs](https://labex.io/labs/hadoop-vr-universe-exploration-with-hadoopudfs-289003)     | Stored Programs    | Beginner     | [Start Lab](https://labex.io/labs/hadoop-vr-universe-exploration-with-hadoopudfs-289003)   |
+|      13 | [Unified Data Quest Hadoop Integration](https://labex.io/labs/hadoop-unified-data-quest-hadoop-integration-289004)         | Data Insertion     | Beginner     | [Start Lab](https://labex.io/labs/hadoop-unified-data-quest-hadoop-integration-289004)     |
+|      14 | [Desert Data Discovery Quest](https://labex.io/labs/hadoop-desert-data-discovery-quest-288986)                             | File Creation      | Beginner     | [Start Lab](https://labex.io/labs/hadoop-desert-data-discovery-quest-288986)               |
+|      15 | [Explorers Fate Unveiled with Hadoop](https://labex.io/labs/hadoop-explorers-fate-unveiled-with-hadoop-289007)             | Table Design       | Beginner     | [Start Lab](https://labex.io/labs/hadoop-explorers-fate-unveiled-with-hadoop-289007)       |
+|      16 | [Discovering Ancient Treasures with Hadoop](https://labex.io/labs/hadoop-discovering-ancient-treasures-with-hadoop-289008) | Aggregate Queries  | Beginner     | [Start Lab](https://labex.io/labs/hadoop-discovering-ancient-treasures-with-hadoop-289008) |
+|      17 | [Datopia with Hadoop Yarn](https://labex.io/labs/hadoop-datopia-with-hadoop-yarn-289011)                                   | Process Inspection | Beginner     | [Start Lab](https://labex.io/labs/hadoop-datopia-with-hadoop-yarn-289011)                  |
+|      18 | [MySQL Database Management Fundamentals](https://labex.io/labs/mysql-mysql-database-management-fundamentals-301326)        | Database Lifecycle | Beginner     | [Start Lab](https://labex.io/labs/mysql-mysql-database-management-fundamentals-301326)     |
+|      19 | [Setting Up a LAMP Server](https://labex.io/labs/linux-setting-up-a-lamp-server-372834)                                    | Service Control    | Beginner     | [Start Lab](https://labex.io/labs/linux-setting-up-a-lamp-server-372834)                   |
+|      20 | [MySQL Basic Data Manipulation](https://labex.io/labs/sql-mysql-basic-data-manipulation-418303)                            | Select Queries     | Beginner     | [Start Lab](https://labex.io/labs/sql-mysql-basic-data-manipulation-418303)                |
+|      21 | [MySQL Data Aggregation and Grouping](https://labex.io/labs/mysql-mysql-data-aggregation-and-grouping-418304)              | Select Queries     | Beginner     | [Start Lab](https://labex.io/labs/mysql-mysql-data-aggregation-and-grouping-418304)        |
+|      22 | [MySQL Data Filtering and Sorting](https://labex.io/labs/mysql-mysql-data-filtering-and-sorting-418305)                    | Select Queries     | Beginner     | [Start Lab](https://labex.io/labs/mysql-mysql-data-filtering-and-sorting-418305)           |
+|      23 | [MySQL Multi-Table Operations](https://labex.io/labs/mysql-mysql-multi-table-operations-418306)                            | Select Queries     | Beginner     | [Start Lab](https://labex.io/labs/mysql-mysql-multi-table-operations-418306)               |
+|      24 | [MySQL Table Structure and Data Types](https://labex.io/labs/mysql-mysql-table-structure-and-data-types-418307)            | Database Lifecycle | Beginner     | [Start Lab](https://labex.io/labs/mysql-mysql-table-structure-and-data-types-418307)       |
+|      25 | [MySQL User and Privileges Management](https://labex.io/labs/mysql-mysql-user-and-privileges-management-418308)            | MySQL Client       | Beginner     | [Start Lab](https://labex.io/labs/mysql-mysql-user-and-privileges-management-418308)       |
+|      26 | [Managing Databases and Users](https://labex.io/labs/managing-databases-and-users-636523)                                  | Server Connection  | Beginner     | [Start Lab](https://labex.io/labs/managing-databases-and-users-636523)                     |
+|      27 | [Hadoop Query Plan Mastery](https://labex.io/labs/hadoop-hadoop-query-plan-mastery-288970)                                 | Query Plans        | Beginner     | [Start Lab](https://labex.io/labs/hadoop-hadoop-query-plan-mastery-288970)                 |
+|      28 | [Quick Start to Hive](https://labex.io/labs/linux-quick-start-to-hive-272323)                                              | Table Design       | Beginner     | [Start Lab](https://labex.io/labs/linux-quick-start-to-hive-272323)                        |
+|      29 | [Intergalactic Data Analysis Journey](https://labex.io/labs/hadoop-intergalactic-data-analysis-journey-288955)             | Table Design       | Beginner     | [Start Lab](https://labex.io/labs/hadoop-intergalactic-data-analysis-journey-288955)       |
+|      30 | [Rebel Data Restructuring with Hadoop](https://labex.io/labs/hadoop-rebel-data-restructuring-with-hadoop-288956)           | Table Design       | Beginner     | [Start Lab](https://labex.io/labs/hadoop-rebel-data-restructuring-with-hadoop-288956)      |
+|      31 | [Time Warp Hive Mastery](https://labex.io/labs/hadoop-time-warp-hive-mastery-288958)                                       | Database Lifecycle | Beginner     | [Start Lab](https://labex.io/labs/hadoop-time-warp-hive-mastery-288958)                    |
+|      32 | [Cosmic Racing Data Optimization](https://labex.io/labs/hadoop-cosmic-racing-data-optimization-288959)                     | Aggregate Queries  | Beginner     | [Start Lab](https://labex.io/labs/hadoop-cosmic-racing-data-optimization-288959)           |
+|      33 | [Gemstone Data Compression with Hadoop](https://labex.io/labs/hadoop-gemstone-data-compression-with-hadoop-288961)         | Table Design       | Beginner     | [Start Lab](https://labex.io/labs/hadoop-gemstone-data-compression-with-hadoop-288961)     |
+|      34 | [Mystical Table Crafting in Hadoop](https://labex.io/labs/hadoop-mystical-table-crafting-in-hadoop-288962)                 | Terminal Sessions  | Beginner     | [Start Lab](https://labex.io/labs/hadoop-mystical-table-crafting-in-hadoop-288962)         |
+|      35 | [Hadoop Date Mastery for Astronomers](https://labex.io/labs/hadoop-hadoop-date-mastery-for-astronomers-288963)             | Select Queries     | Beginner     | [Start Lab](https://labex.io/labs/hadoop-hadoop-date-mastery-for-astronomers-288963)       |
+|      36 | [Historical Data Harmony Quest](https://labex.io/labs/hadoop-historical-data-harmony-quest-288965)                         | Data Deletion      | Beginner     | [Start Lab](https://labex.io/labs/hadoop-historical-data-harmony-quest-288965)             |
+|      37 | [Mars Data Discovery with Hadoop](https://labex.io/labs/hadoop-mars-data-discovery-with-hadoop-288966)                     | Table Design       | Beginner     | [Start Lab](https://labex.io/labs/hadoop-mars-data-discovery-with-hadoop-288966)           |
+|      38 | [Gem Analysis with Hadoop](https://labex.io/labs/hadoop-gem-analysis-with-hadoop-288967)                                   | Table Design       | Beginner     | [Start Lab](https://labex.io/labs/hadoop-gem-analysis-with-hadoop-288967)                  |
+|      39 | [Dystopian Data Disruption Mission](https://labex.io/labs/hadoop-dystopian-data-disruption-mission-288969)                 | Table Design       | Beginner     | [Start Lab](https://labex.io/labs/hadoop-dystopian-data-disruption-mission-288969)         |
+|      40 | [Hadoop Shuffle Combiner](https://labex.io/labs/hadoop-hadoop-shuffle-combiner-271904)                                     | File Creation      | Beginner     | [Start Lab](https://labex.io/labs/hadoop-hadoop-shuffle-combiner-271904)                   |
+|      41 | [Ruin Data with Hadoop Magic](https://labex.io/labs/hadoop-ruin-data-with-hadoop-magic-288973)                             | File Copying       | Beginner     | [Start Lab](https://labex.io/labs/hadoop-ruin-data-with-hadoop-magic-288973)               |
+|      42 | [Ghostly Data Transformation Journey](https://labex.io/labs/hadoop-ghostly-data-transformation-journey-288974)             | File Creation      | Beginner     | [Start Lab](https://labex.io/labs/hadoop-ghostly-data-transformation-journey-288974)       |
+|      43 | [Hadoop Dimensional Mastery Guide](https://labex.io/labs/hadoop-hadoop-dimensional-mastery-guide-288976)                   | Aggregate Queries  | Beginner     | [Start Lab](https://labex.io/labs/hadoop-hadoop-dimensional-mastery-guide-288976)          |
+|      44 | [Cosmic Hive Integration Journey](https://labex.io/labs/hadoop-cosmic-hive-integration-journey-288977)                     | Service Control    | Beginner     | [Start Lab](https://labex.io/labs/hadoop-cosmic-hive-integration-journey-288977)           |
+|      45 | [Data Mastery in Hive Arena](https://labex.io/labs/hadoop-data-mastery-in-hive-arena-288978)                               | Server Connection  | Beginner     | [Start Lab](https://labex.io/labs/hadoop-data-mastery-in-hive-arena-288978)                |
+|      46 | [Dinosaur Data Fusion with Hadoop](https://labex.io/labs/hadoop-dinosaur-data-fusion-with-hadoop-288979)                   | Joins              | Beginner     | [Start Lab](https://labex.io/labs/hadoop-dinosaur-data-fusion-with-hadoop-288979)          |
+|      47 | [Intergalactic Data Flow Optimization](https://labex.io/labs/hadoop-intergalactic-data-flow-optimization-288980)           | Bulk Loading       | Beginner     | [Start Lab](https://labex.io/labs/hadoop-intergalactic-data-flow-optimization-288980)      |
+|      48 | [Desert Dragon Data Integration](https://labex.io/labs/hadoop-desert-dragon-data-integration-288982)                       | Joins              | Beginner     | [Start Lab](https://labex.io/labs/hadoop-desert-dragon-data-integration-288982)            |
+|      49 | [Rebel Data Infiltration with LIMIT](https://labex.io/labs/hadoop-rebel-data-infiltration-with-limit-288983)               | Table Design       | Beginner     | [Start Lab](https://labex.io/labs/hadoop-rebel-data-infiltration-with-limit-288983)        |
+|      50 | [Celestial Data Mastery](https://labex.io/labs/hadoop-celestial-data-mastery-288984)                                       | File Copying       | Beginner     | [Start Lab](https://labex.io/labs/hadoop-celestial-data-mastery-288984)                    |
+|      51 | [Hadoop Date Mastery for Astronomers](https://labex.io/labs/hadoop-hadoop-date-mastery-for-astronomers-288963)             | Select Queries     | Beginner     | [Start Lab](https://labex.io/labs/hadoop-hadoop-date-mastery-for-astronomers-288963)       |
+|      52 | [Mystical Table Crafting in Hadoop](https://labex.io/labs/hadoop-mystical-table-crafting-in-hadoop-288962)                 | Terminal Sessions  | Beginner     | [Start Lab](https://labex.io/labs/hadoop-mystical-table-crafting-in-hadoop-288962)         |
+|      53 | [Gemstone Data Compression with Hadoop](https://labex.io/labs/hadoop-gemstone-data-compression-with-hadoop-288961)         | Table Design       | Beginner     | [Start Lab](https://labex.io/labs/hadoop-gemstone-data-compression-with-hadoop-288961)     |
+|      54 | [Cosmic Racing Data Optimization](https://labex.io/labs/hadoop-cosmic-racing-data-optimization-288959)                     | Aggregate Queries  | Beginner     | [Start Lab](https://labex.io/labs/hadoop-cosmic-racing-data-optimization-288959)           |
+|      55 | [Time Warp Hive Mastery](https://labex.io/labs/hadoop-time-warp-hive-mastery-288958)                                       | Database Lifecycle | Beginner     | [Start Lab](https://labex.io/labs/hadoop-time-warp-hive-mastery-288958)                    |
+|      56 | [Rebel Data Restructuring with Hadoop](https://labex.io/labs/hadoop-rebel-data-restructuring-with-hadoop-288956)           | Table Design       | Beginner     | [Start Lab](https://labex.io/labs/hadoop-rebel-data-restructuring-with-hadoop-288956)      |
+|      57 | [Intergalactic Data Analysis Journey](https://labex.io/labs/hadoop-intergalactic-data-analysis-journey-288955)             | Table Design       | Beginner     | [Start Lab](https://labex.io/labs/hadoop-intergalactic-data-analysis-journey-288955)       |
+|      58 | [Quick Start to Hive](https://labex.io/labs/linux-quick-start-to-hive-272323)                                              | Table Design       | Beginner     | [Start Lab](https://labex.io/labs/linux-quick-start-to-hive-272323)                        |
+|      59 | [Hadoop Cosmic Communication Quest](https://labex.io/labs/hadoop-hadoop-cosmic-communication-quest-288990)                 | Select Queries     | Beginner     | [Start Lab](https://labex.io/labs/hadoop-hadoop-cosmic-communication-quest-288990)         |
+|      60 | [Unified Data Quest Hadoop Integration](https://labex.io/labs/hadoop-unified-data-quest-hadoop-integration-289004)         | Data Insertion     | Beginner     | [Start Lab](https://labex.io/labs/hadoop-unified-data-quest-hadoop-integration-289004)     |
+|      61 | [VR Universe Exploration with HadoopUDFs](https://labex.io/labs/hadoop-vr-universe-exploration-with-hadoopudfs-289003)     | Stored Programs    | Beginner     | [Start Lab](https://labex.io/labs/hadoop-vr-universe-exploration-with-hadoopudfs-289003)   |
+|      62 | [The Monks Data Quest](https://labex.io/labs/hadoop-the-monks-data-quest-289002)                                           | Select Queries     | Beginner     | [Start Lab](https://labex.io/labs/hadoop-the-monks-data-quest-289002)                      |
+|      63 | [Hadoop Storage Mastery in Abyss](https://labex.io/labs/hadoop-hadoop-storage-mastery-in-abyss-288999)                     | Table Design       | Beginner     | [Start Lab](https://labex.io/labs/hadoop-hadoop-storage-mastery-in-abyss-288999)           |
+|      64 | [Space Resource Optimization with Hadoop](https://labex.io/labs/hadoop-space-resource-optimization-with-hadoop-288998)     | Directory Creation | Beginner     | [Start Lab](https://labex.io/labs/hadoop-space-resource-optimization-with-hadoop-288998)   |
+|      65 | [Hadoop Olympiad Partitioning](https://labex.io/labs/hadoop-hadoop-olympiad-partitioning-288997)                           | File Creation      | Beginner     | [Start Lab](https://labex.io/labs/hadoop-hadoop-olympiad-partitioning-288997)              |
+|      66 | [Mystical Hadoop Sorting Secrets](https://labex.io/labs/hadoop-mystical-hadoop-sorting-secrets-288996)                     | File Creation      | Beginner     | [Start Lab](https://labex.io/labs/hadoop-mystical-hadoop-sorting-secrets-288996)           |
+|      67 | [Pirates Hive Security Quest](https://labex.io/labs/hadoop-pirates-hive-security-quest-288994)                             | Security Controls  | Beginner     | [Start Lab](https://labex.io/labs/hadoop-pirates-hive-security-quest-288994)               |
+|      68 | [Royal Data Magic Schema](https://labex.io/labs/hadoop-royal-data-magic-schema-288993)                                     | Table Design       | Beginner     | [Start Lab](https://labex.io/labs/hadoop-royal-data-magic-schema-288993)                   |
+|      69 | [Hadoop Shuffle Combiner](https://labex.io/labs/hadoop-hadoop-shuffle-combiner-271904)                                     | File Creation      | Beginner     | [Start Lab](https://labex.io/labs/hadoop-hadoop-shuffle-combiner-271904)                   |
+|      70 | [Optimizing Galactic Spaceport Operations](https://labex.io/labs/hadoop-optimizing-galactic-spaceport-operations-288989)   | Storage Engines    | Beginner     | [Start Lab](https://labex.io/labs/hadoop-optimizing-galactic-spaceport-operations-288989)  |
+|      71 | [Hadoop Numerical Harmony Quest](https://labex.io/labs/hadoop-hadoop-numerical-harmony-quest-288987)                       | Table Design       | Beginner     | [Start Lab](https://labex.io/labs/hadoop-hadoop-numerical-harmony-quest-288987)            |
+|      72 | [Desert Data Discovery Quest](https://labex.io/labs/hadoop-desert-data-discovery-quest-288986)                             | File Creation      | Beginner     | [Start Lab](https://labex.io/labs/hadoop-desert-data-discovery-quest-288986)               |
+|      73 | [Hadoop Hive Data Expedition](https://labex.io/labs/hadoop-hadoop-hive-data-expedition-288985)                             | Database Lifecycle | Beginner     | [Start Lab](https://labex.io/labs/hadoop-hadoop-hive-data-expedition-288985)               |
+|      74 | [Celestial Data Mastery](https://labex.io/labs/hadoop-celestial-data-mastery-288984)                                       | File Copying       | Beginner     | [Start Lab](https://labex.io/labs/hadoop-celestial-data-mastery-288984)                    |
+|      75 | [Rebel Data Infiltration with LIMIT](https://labex.io/labs/hadoop-rebel-data-infiltration-with-limit-288983)               | Table Design       | Beginner     | [Start Lab](https://labex.io/labs/hadoop-rebel-data-infiltration-with-limit-288983)        |
+|      76 | [Desert Dragon Data Integration](https://labex.io/labs/hadoop-desert-dragon-data-integration-288982)                       | Joins              | Beginner     | [Start Lab](https://labex.io/labs/hadoop-desert-dragon-data-integration-288982)            |
+|      77 | [Intergalactic Data Flow Optimization](https://labex.io/labs/hadoop-intergalactic-data-flow-optimization-288980)           | Bulk Loading       | Beginner     | [Start Lab](https://labex.io/labs/hadoop-intergalactic-data-flow-optimization-288980)      |
 
-LabEx is an interactive, hands-on learning platform dedicated to coding and technology. It combines labs, AI assistance, and virtual machines to provide a no-video, practical learning experience.
-
-![](https://tutorial-screenshot.getvm.io/images/vm-1725247253.png)
-
-- A strict “Learn by Doing” approach with exclusive hands-on labs and no videos.
-- Interactive online environments within the browser, with automated step-by-step checks.
-- A structured content organization with the Skill Tree based learning system.
-- A growing learning resource of 30 Skill Trees and over 6,000 Labs.
-- The AI learning assistant Labby, built on ChatGPT, providing a conversational learning experience.
-
-Learn more about [LabEx VM](https://support.labex.io/using-labex/virtual-machine).
-
-## Exercises
-
-|   Index | Name                                                     | Difficulty   | Practice                                                                                                                            |
-|---------|----------------------------------------------------------|--------------|-------------------------------------------------------------------------------------------------------------------------------------|
-|      01 | 📖 Operate the Course Table                              | ★☆☆          | <a target='_blank' href='https://labex.io/tutorials/javascript-operate-the-course-table-300384'>Start Lab</a>                       |
-|      02 | 📖 Course Schedule CRUD With MyBatis                     | ★☆☆          | <a target='_blank' href='https://labex.io/tutorials/javascript-course-schedule-crud-with-mybatis-300354'>Start Lab</a>              |
-|      03 | 📖 Extending Entity with Custom Properties               | ★☆☆          | <a target='_blank' href='https://labex.io/tutorials/java-extending-entity-with-custom-properties-300358'>Start Lab</a>              |
-|      04 | 📖 Modifying the Teacher Table Using PreparedStatemen... | ★☆☆          | <a target='_blank' href='https://labex.io/tutorials/mysql-modifying-the-teacher-table-using-preparedstatement-301362'>Start Lab</a> |
-|      05 | 📖 Statement for Querying Classroom Table                | ★☆☆          | <a target='_blank' href='https://labex.io/tutorials/mysql-statement-for-querying-classroom-table-301412'>Start Lab</a>              |
-|      06 | 📖 Practical Use of resultMap                            | ★☆☆          | <a target='_blank' href='https://labex.io/tutorials/javascript-practical-use-of-resultmap-300390'>Start Lab</a>                     |
-|      07 | 📖 Query Teacher Salary Using PreparedStatement          | ★☆☆          | <a target='_blank' href='https://labex.io/tutorials/mysql-query-teacher-salary-using-preparedstatement-301390'>Start Lab</a>        |
-|      08 | 📖 University Information Query System                   | ★☆☆          | <a target='_blank' href='https://labex.io/tutorials/mysql-university-information-query-system-301422'>Start Lab</a>                 |
-|      09 | 📖 Bulk Insert Data Into Course Schedule                 | ★☆☆          | <a target='_blank' href='https://labex.io/tutorials/mysql-bulk-insert-data-into-course-schedule-300346'>Start Lab</a>               |
-|      10 | 📖 Installation of MySQL                                 | ★☆☆          | <a target='_blank' href='https://labex.io/tutorials/linux-installation-of-mysql-178583'>Start Lab</a>                               |
-|      11 | 📖 Build URL Shortener with Flask MySQL                  | ★★★          | <a target='_blank' href='https://labex.io/tutorials/html-build-url-shortener-with-flask-mysql-298925'>Start Lab</a>                 |
+[View all labs](https://labex.io/learn/mysql).
 
 ## More
 
-- 🔗 [MySQL Programming Courses](https://github.com/labex-labs/awesome-programming-courses)
-- 🔗 [MySQL Programming Projects](https://github.com/labex-labs/awesome-programming-projects)
-- 🔗 [MySQL Free Tutorials](https://github.com/labex-labs/mysql-free-tutorials)
+- 🔗 [Learn more about MySQL on LabEx](https://labex.io/learn/mysql)
+- 🔗 [Explore more programming projects](https://github.com/labex-labs/awesome-programming-projects)
+- 🔗 [Explore programming courses](https://github.com/labex-labs/awesome-programming-courses)
 
